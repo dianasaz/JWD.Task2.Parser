@@ -1,22 +1,26 @@
 package service.parser;
 
-import entity.SmartText;
-import entity.Word;
+import entity.CompositeWord;
+import entity.LeafWord;
+import entity.Paragraph;
+import entity.Text;
 
-public abstract class TextParser implements ParserChain<SmartText> {
-    private TextParser next;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
+public class TextParser extends AbstractParser {
+    private static final String PARAGRAPH_SPLIT_REGEX = "\t";
+
 
     @Override
-    public ParserChain<SmartText> linkWith(ParserChain<SmartText> next) {
-        ((TextParser) next).next = this;
-        return next;
-    }
-
-    protected SmartText nextParse(String line){
-        if (next != null){
-            return next.parseLine(line);
-        } else {
-            return null;
+    public LeafWord parseLine(String string) {
+        List<String> stringSentences = new LinkedList<>(Arrays.asList(string.split(PARAGRAPH_SPLIT_REGEX)));
+        CompositeWord text = new Text();
+        for (String stringSentence : stringSentences) {
+            CompositeWord paragraph = (CompositeWord) nextParse(stringSentence);
+            text.add(paragraph);
         }
+        return text;
     }
 }

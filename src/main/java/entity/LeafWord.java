@@ -1,5 +1,5 @@
 package entity;
 
-public interface LeafWord<T> {
-    T getData();
+public interface LeafWord {
+    String getData();
 }

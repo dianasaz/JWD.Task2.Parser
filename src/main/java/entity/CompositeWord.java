@@ -2,8 +2,8 @@ package entity;
 
 import java.util.List;
 
-public interface CompositeWord<T> extends LeafWord<T>{
-    void add(LeafWord<T> leaf);
+public interface CompositeWord extends LeafWord{
+    void add(LeafWord leaf);
 
-    List<LeafWord<T>> getWords();
+    List<LeafWord> getWords();
 }

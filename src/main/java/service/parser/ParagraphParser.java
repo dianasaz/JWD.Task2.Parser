@@ -1,41 +1,29 @@
 package service.parser;
 
+import entity.CompositeWord;
+import entity.LeafWord;
 import entity.Paragraph;
-import entity.SmartText;
-import entity.Word;
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import service.validation.Validation;
+import entity.Sentense;
+import entity.Text;
 
-public class ParagraphParser extends TextParser {
-    private static final String PARAGRAPH_SPLIT_REGEX = "\\s{4}";
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
+public class ParagraphParser extends AbstractParser {
+
+
+    private static final String SENTENSE_SPLIT_REGEX = "[\\.][\\s]";
+
 
     @Override
-    public SmartText parseLine(String text) {
-        for (int i = 0; i < text.length(); i++) {
-            String[] paragraphs = text.split(PARAGRAPH_SPLIT_REGEX);
-            for (String paragraph: paragraphs){
-                Paragraph paragraph1 = new Paragraph();
-            }
+    public LeafWord parseLine(String string) {
+        List<String> stringSentences = new LinkedList<>(Arrays.asList(string.split(SENTENSE_SPLIT_REGEX)));
+        CompositeWord paragraph = new Paragraph();
+        for (String stringSentence : stringSentences) {
+            CompositeWord sentence = (CompositeWord) nextParse(stringSentence);
+            paragraph.add(sentence);
         }
-
-
-
-    /*
-    InvalidLineParser
-        validation
-        ParagraphParser
-        validation
-        SentenseParser
-        validation
-        WordParser
-
-
-
-}
-     */
-
-        return null;
+        return paragraph;
     }
 }

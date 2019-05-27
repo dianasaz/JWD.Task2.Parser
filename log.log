@@ -1,0 +1,450 @@
+2019-05-27 03:26:58,690 INFO s.r.TextReader [main] file read 
+2019-05-27 03:27:34,166 INFO s.r.TextReader [main] file read 
+2019-05-27 03:27:45,897 INFO s.r.TextReader [main] file read 
+2019-05-27 04:26:15,025 INFO s.r.TextReader [main] file read 
+2019-05-27 04:26:15,060 INFO s.r.TextReader [main] file read 
+2019-05-27 05:06:11,332 INFO s.r.TextReader [main] file read 
+2019-05-27 05:06:11,363 INFO s.r.TextReader [main] file read 
+2019-05-27 05:06:42,570 INFO s.r.TextReader [main] file read 
+2019-05-27 05:07:10,305 INFO s.r.TextReader [main] file read 
+2019-05-27 05:07:14,478 INFO s.r.TextReader [main] file read 
+2019-05-27 05:07:48,145 INFO s.r.TextReader [main] file read 
+2019-05-27 05:07:54,197 INFO s.r.TextReader [main] file read 
+2019-05-27 05:07:54,213 INFO s.r.TextReader [main] file read 
+2019-05-27 05:08:01,700 INFO s.r.TextReader [main] file read 
+2019-05-27 05:08:01,716 INFO s.r.TextReader [main] file read 
+2019-05-27 05:10:07,876 INFO s.r.TextReader [main] file read 
+2019-05-27 05:10:07,908 INFO s.r.TextReader [main] file read 
+2019-05-27 05:13:20,270 INFO s.r.TextReader [main] file read 
+2019-05-27 05:13:20,301 INFO s.r.TextReader [main] file read 
+2019-05-27 05:14:56,090 INFO s.r.TextReader [main] file read 
+2019-05-27 05:14:56,105 INFO s.r.TextReader [main] file read 
+2019-05-27 05:15:37,524 INFO s.r.TextReader [main] file read 
+2019-05-27 05:15:37,540 INFO s.r.TextReader [main] file read 
+2019-05-27 05:22:58,851 INFO s.r.TextReader [main] file read 
+2019-05-27 05:22:58,883 INFO s.r.TextReader [main] file read 
+2019-05-27 05:24:07,150 INFO s.r.TextReader [main] file read 
+2019-05-27 05:24:07,182 INFO s.r.TextReader [main] file read 
+2019-05-27 05:26:42,170 INFO s.r.TextReader [main] file read 
+2019-05-27 05:26:42,185 INFO s.r.TextReader [main] file read 
+2019-05-27 05:27:55,813 INFO s.r.TextReader [main] file read 
+2019-05-27 05:27:55,969 INFO s.r.TextReader [main] file read 
+2019-05-27 05:31:03,026 INFO s.r.TextReader [main] file read 
+2019-05-27 05:31:03,198 INFO s.r.TextReader [main] file read 
+2019-05-27 05:37:09,069 INFO s.r.TextReader [main] file read 
+2019-05-27 05:37:09,256 INFO s.r.TextReader [main] file read 
+2019-05-27 05:38:56,511 INFO s.r.TextReader [main] file read 
+2019-05-27 05:38:56,652 INFO s.r.TextReader [main] file read 
+2019-05-28 01:03:55,307 INFO s.r.TextReader [main] file read 
+2019-05-28 01:03:55,354 INFO s.r.TextReader [main] file read 
+2019-05-28 01:11:29,818 INFO s.r.TextReader [main] file read 
+2019-05-28 01:11:29,849 INFO s.r.TextReader [main] file read 
+2019-05-28 01:12:46,757 INFO s.r.TextReader [main] file read 
+2019-05-28 01:12:46,819 INFO s.r.TextReader [main] file read 
+2019-05-28 01:14:10,629 INFO s.r.TextReader [main] file read 
+2019-05-28 01:14:10,660 INFO s.r.TextReader [main] file read 
+2019-05-28 01:28:11,542 INFO s.r.TextReader [main] file read 
+2019-05-28 01:28:11,573 INFO s.r.TextReader [main] file read 
+2019-05-28 01:28:25,765 INFO s.r.TextReader [main] file read 
+2019-05-28 01:43:17,700 INFO s.r.TextReader [main] file read 
+2019-05-28 01:43:23,752 INFO s.r.TextReader [main] file read 
+2019-05-28 01:43:23,767 INFO s.r.TextReader [main] file read 
+2019-05-28 01:48:48,144 INFO s.r.TextReader [main] file read 
+2019-05-28 01:48:48,174 INFO s.r.TextReader [main] file read 
+2019-05-28 01:50:44,754 INFO s.r.TextReader [main] file read 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+ 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+It 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+has 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+survived 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+not 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+only 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+five 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+centuries 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+ 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+but 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+also 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+the 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+leap 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+into 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+electronic 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+typesetting 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+ 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+remaining 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+essentially 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+unchanged 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+It 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+was 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+popularised 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+in 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+the 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+with 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+the 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+release 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+of 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+Letraset 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+sheets 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+containing 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+Lorem 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+Ipsum 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+passages 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+ 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+and 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+more 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+recently 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+with 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+desktop 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+publishing 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+software 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+like 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+Aldus 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+PageMaker 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+including 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+versions 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+of 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+Lorem 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+Ipsum 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+It 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+is 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+a 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+long 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+established 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+fact 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+that 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+a 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+reader 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+will 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+be 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+distracted 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+by 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+the 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+readable 
+2019-05-28 01:50:44,770 WARN s.p.InvalidLineParser [main] Invalid line
+content 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+of 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+a 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+page 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+when 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+looking 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+at 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+its 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+layout 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+The 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+point 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+of 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+using 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+Ipsum 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+is 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+that 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+it 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+has 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+a 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+more 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+or 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+less 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+normal 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+distribution 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+of 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+letters 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+ 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+as 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+opposed 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+to 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+using 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+ 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+Content 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+here 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+ 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+content 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+here 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+ 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+ 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+making 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+it 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+look 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+like 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+readable 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+English 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+It 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+is 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+a 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+established 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+fact 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+that 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+a 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+reader 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+will 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+be 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+of 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+a 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+page 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+when 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+looking 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+at 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+its 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+layout 
+2019-05-28 01:50:44,785 WARN s.p.InvalidLineParser [main] Invalid line
+Bye 
+2019-05-28 01:50:44,801 INFO s.r.TextReader [main] file read 
+2019-05-28 02:02:00,368 INFO s.r.TextReader [main] file read 
+2019-05-28 02:02:00,534 INFO s.r.TextReader [main] file read 
+2019-05-28 02:02:56,485 INFO s.r.TextReader [main] file read 
+2019-05-28 02:02:56,610 INFO s.r.TextReader [main] file read 
+2019-05-28 02:04:56,052 INFO s.r.TextReader [main] file read 
+2019-05-28 02:04:56,208 INFO s.r.TextReader [main] file read 
+2019-05-28 02:05:16,483 INFO s.r.TextReader [main] file read 
+2019-05-28 02:07:27,981 INFO s.r.TextReader [main] file read 
+2019-05-28 02:07:31,643 INFO s.r.TextReader [main] file read 
+2019-05-28 02:08:19,528 INFO s.r.TextReader [main] file read 
+2019-05-28 02:08:34,251 INFO s.r.TextReader [main] file read 
+2019-05-28 02:15:43,085 INFO s.r.TextReader [main] file read 
+2019-05-28 02:15:43,119 INFO s.r.TextReader [main] file read 
+2019-05-28 02:16:03,242 INFO s.r.TextReader [main] file read 
+2019-05-28 02:16:03,268 INFO s.r.TextReader [main] file read 
+2019-05-28 02:16:07,473 INFO s.r.TextReader [main] file read 
+2019-05-28 02:16:07,505 INFO s.r.TextReader [main] file read 
+2019-05-28 02:16:16,863 INFO s.r.TextReader [main] file read 
+2019-05-28 02:16:16,895 INFO s.r.TextReader [main] file read 
+2019-05-28 02:17:45,429 INFO s.r.TextReader [main] file read 
+2019-05-28 02:20:06,990 INFO s.r.TextReader [main] file read 
+2019-05-28 02:20:11,281 INFO s.r.TextReader [main] file read 
+2019-05-28 02:20:41,990 INFO s.r.TextReader [main] file read 
+2019-05-28 02:20:48,537 INFO s.r.TextReader [main] file read 
+2019-05-28 02:21:34,065 INFO s.r.TextReader [main] file read 
+2019-05-28 02:21:39,899 INFO s.r.TextReader [main] file read 
+2019-05-28 02:21:39,957 INFO s.r.TextReader [main] file read 
+2019-05-28 02:31:18,997 INFO s.r.TextReader [main] file read 
+2019-05-28 02:31:19,031 INFO s.r.TextReader [main] file read 
+2019-05-28 02:34:56,150 INFO s.r.TextReader [main] file read 
+2019-05-28 02:34:56,181 INFO s.r.TextReader [main] file read 
+2019-05-28 02:37:41,208 INFO s.r.TextReader [main] file read 
+2019-05-28 02:37:41,239 INFO s.r.TextReader [main] file read 
+2019-05-28 02:38:09,119 INFO s.r.TextReader [main] file read 
+2019-05-28 02:38:09,150 INFO s.r.TextReader [main] file read 
+2019-05-28 02:40:01,757 INFO s.r.TextReader [main] file read 
+2019-05-28 02:40:01,913 INFO s.r.TextReader [main] file read 
+2019-05-28 02:40:31,141 INFO s.r.TextReader [main] file read 
+2019-05-28 02:40:43,413 INFO s.r.TextReader [main] file read 
+2019-05-28 02:40:47,172 INFO s.r.TextReader [main] file read 
+2019-05-28 02:42:47,099 INFO s.r.TextReader [main] file read 
+2019-05-28 02:42:52,940 INFO s.r.TextReader [main] file read 
+2019-05-28 02:42:53,077 INFO s.r.TextReader [main] file read 
+2019-05-28 02:43:12,515 INFO s.r.TextReader [main] file read 
+2019-05-28 03:02:49,538 INFO s.r.TextReader [main] file read 
+2019-05-28 03:03:41,859 INFO s.r.TextReader [main] file read 
+2019-05-28 03:03:45,772 INFO s.r.TextReader [main] file read 
+2019-05-28 03:05:28,575 INFO s.r.TextReader [main] file read 
+2019-05-28 03:05:28,721 INFO s.r.TextReader [main] file read 
+2019-05-28 03:09:39,002 INFO s.r.TextReader [main] file read 
+2019-05-28 03:09:39,158 INFO s.r.TextReader [main] file read 
+2019-05-28 03:12:58,019 INFO s.r.TextReader [main] file read 
+2019-05-28 03:13:12,851 INFO s.r.TextReader [main] file read 
+2019-05-28 03:13:49,717 INFO s.r.TextReader [main] file read 
+2019-05-28 03:13:49,899 INFO s.r.TextReader [main] file read 
+2019-05-28 03:25:07,924 INFO s.r.TextReader [main] file read 
+2019-05-28 03:25:08,107 INFO s.r.TextReader [main] file read 
+2019-05-28 03:30:51,692 INFO s.r.TextReader [main] file read 
+2019-05-28 03:30:51,851 INFO s.r.TextReader [main] file read 
+2019-05-28 03:31:32,653 INFO s.r.TextReader [main] file read 
+2019-05-28 03:31:32,790 INFO s.r.TextReader [main] file read 
+2019-05-28 03:32:19,761 INFO s.r.TextReader [main] file read 
+2019-05-28 03:32:19,938 INFO s.r.TextReader [main] file read 
+2019-05-28 03:32:38,097 INFO s.r.TextReader [main] file read 
+2019-05-28 03:32:38,254 INFO s.r.TextReader [main] file read 
+2019-05-28 03:38:00,776 INFO s.r.TextReader [main] file read 
+2019-05-28 03:38:00,825 INFO s.r.TextReader [main] file read 
+2019-05-28 03:39:02,568 INFO s.r.TextReader [main] file read 
+2019-05-28 03:39:02,600 INFO s.r.TextReader [main] file read 
+2019-05-28 03:44:46,822 INFO s.r.TextReader [main] file read 
+2019-05-28 03:44:46,853 INFO s.r.TextReader [main] file read 
+2019-05-28 03:44:56,570 INFO s.r.TextReader [main] file read 
+2019-05-28 03:44:56,622 INFO s.r.TextReader [main] file read 
+2019-05-28 03:46:16,280 INFO s.r.TextReader [main] file read 
+2019-05-28 03:46:16,312 INFO s.r.TextReader [main] file read 
+2019-05-28 03:47:29,488 INFO s.r.TextReader [main] file read 
+2019-05-28 03:47:29,519 INFO s.r.TextReader [main] file read 
+2019-05-28 03:49:30,692 INFO s.r.TextReader [main] file read 
+2019-05-28 03:49:30,732 INFO s.r.TextReader [main] file read 
+2019-05-28 03:50:26,054 INFO s.r.TextReader [main] file read 
+2019-05-28 03:50:26,070 INFO s.r.TextReader [main] file read 
+2019-05-28 03:50:54,421 INFO s.r.TextReader [main] file read 
+2019-05-28 03:50:54,452 INFO s.r.TextReader [main] file read 
+2019-05-28 03:52:32,593 INFO s.r.TextReader [main] file read 
+2019-05-28 03:52:32,650 INFO s.r.TextReader [main] file read 
+2019-05-28 03:52:47,214 INFO s.r.TextReader [main] file read 
+2019-05-28 03:52:47,245 INFO s.r.TextReader [main] file read 
+2019-05-28 03:56:17,004 INFO s.r.TextReader [main] file read 
+2019-05-28 03:56:17,023 INFO s.r.TextReader [main] file read 
+2019-05-28 03:58:17,106 INFO s.r.TextReader [main] file read 
+2019-05-28 04:02:08,935 INFO s.r.TextReader [main] file read 
+2019-05-28 04:02:14,816 INFO s.r.TextReader [main] file read 
+2019-05-28 04:02:14,858 INFO s.r.TextReader [main] file read 
+2019-05-28 04:02:34,133 INFO s.r.TextReader [main] file read 
+2019-05-28 04:02:34,164 INFO s.r.TextReader [main] file read 
+2019-05-28 04:02:57,764 INFO s.r.TextReader [main] file read 
+2019-05-28 04:02:57,805 INFO s.r.TextReader [main] file read 
+2019-05-28 04:13:01,596 INFO s.r.TextReader [main] file read 
+2019-05-28 04:13:01,637 INFO s.r.TextReader [main] file read 
+2019-05-28 04:17:36,034 INFO s.r.TextReader [main] file read 
+2019-05-28 04:17:36,099 INFO s.r.TextReader [main] file read 
+2019-05-28 04:18:33,254 INFO s.r.TextReader [main] file read 
+2019-05-28 04:18:33,304 INFO s.r.TextReader [main] file read 
+2019-05-28 04:18:56,911 INFO s.r.TextReader [main] file read 
+2019-05-28 04:18:56,959 INFO s.r.TextReader [main] file read 
+2019-05-28 04:19:16,741 INFO s.r.TextReader [main] file read 
+2019-05-28 04:19:16,793 INFO s.r.TextReader [main] file read 
+2019-05-28 04:19:34,205 INFO s.r.TextReader [main] file read 
+2019-05-28 04:19:34,263 INFO s.r.TextReader [main] file read 
+2019-05-28 04:33:17,888 INFO s.r.TextReader [main] file read 
+2019-05-28 04:33:17,919 INFO s.r.TextReader [main] file read 
+2019-05-28 04:36:38,599 INFO s.r.TextReader [main] file read 
+2019-05-28 04:36:38,631 INFO s.r.TextReader [main] file read 
+2019-05-28 04:39:46,492 INFO s.r.TextReader [main] file read 
+2019-05-28 04:39:46,523 INFO s.r.TextReader [main] file read 
+2019-05-28 04:40:23,800 INFO s.r.TextReader [main] file read 
+2019-05-28 04:40:23,849 INFO s.r.TextReader [main] file read 
+2019-05-28 04:51:25,066 INFO s.r.TextReader [main] file read 
+2019-05-28 04:51:25,120 INFO s.r.TextReader [main] file read 
+2019-05-28 04:52:17,606 INFO s.r.TextReader [main] file read 
+2019-05-28 04:52:17,645 INFO s.r.TextReader [main] file read 
+2019-05-28 04:53:52,312 INFO s.r.TextReader [main] file read 
+2019-05-28 04:53:52,343 INFO s.r.TextReader [main] file read 
+2019-05-28 05:09:20,569 INFO s.r.TextReader [main] file read 
+2019-05-28 05:09:20,584 INFO s.r.TextReader [main] file read 
+2019-05-28 05:11:41,832 INFO s.r.TextReader [main] file read 
+2019-05-28 05:11:41,832 INFO s.r.TextReader [main] file read 
+2019-05-28 05:12:01,127 INFO s.r.TextReader [main] file read 
+2019-05-28 05:12:01,138 INFO s.r.TextReader [main] file read 
+2019-05-28 05:12:28,183 INFO s.r.TextReader [main] file read 
+2019-05-28 05:12:28,195 INFO s.r.TextReader [main] file read 
+2019-05-28 05:13:44,266 INFO s.r.TextReader [main] file read 
+2019-05-28 05:13:44,281 INFO s.r.TextReader [main] file read 
+2019-05-28 05:15:38,523 INFO s.r.TextReader [main] file read 
+2019-05-28 05:15:38,539 INFO s.r.TextReader [main] file read 

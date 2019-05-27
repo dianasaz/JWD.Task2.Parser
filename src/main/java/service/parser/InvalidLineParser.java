@@ -1,17 +1,17 @@
 package service.parser;
 
-import entity.SmartText;
-import entity.Word;
+import entity.CompositeWord;
+import entity.LeafWord;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class InvalidLineParser extends TextParser {
+public class InvalidLineParser extends AbstractParser {
 
     private final Logger logger = LogManager.getLogger(InvalidLineParser.class);
 
     @Override
-    public SmartText parseLine(String line) {
+    public CompositeWord parseLine(String line) {
         logger.warn("Invalid line\n" + line);
-        return nextParse(line);
+        return (CompositeWord) nextParse(line);
     }
 }

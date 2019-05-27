@@ -1,7 +1,10 @@
 package service.parser;
 
-public interface ParserChain < T > {
-    T parseLine(String string);
+import entity.CompositeWord;
+import entity.LeafWord;
 
-    ParserChain < T > linkWith( ParserChain < T > next);
+public interface ParserChain {
+    LeafWord parseLine(String string);
+
+    ParserChain linkWith( ParserChain next);
 }
