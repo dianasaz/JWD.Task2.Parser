@@ -1,6 +1,5 @@
 package service.parser;
 
-import entity.CompositeWord;
 import entity.LeafWord;
 import entity.Word;
 
@@ -12,23 +11,27 @@ public class WordParser extends AbstractParser{
 
     @Override
     public LeafWord parseLine(String string) {
-        String stringWord = find(WORD_VALIDATION, string);
+        String previousChar = "";
+        String nextChar = "";
+        String stringWord = "";
 
-        LeafWord word = new Word(stringWord);
+        Pattern pattern = Pattern.compile(WORD_VALIDATION);
+        Matcher matcher = pattern.matcher(string);
+
+        while (matcher.find()) {
+            int start = matcher.start();
+            int end = matcher.end();
+
+            if (start != 0) {
+                previousChar += string.charAt(start - 1);
+            }
+            if (end != string.length() && !String.valueOf(string.charAt(end)).equals(".")) {
+                nextChar += string.charAt(end);
+            }
+            stringWord = string.substring(start, end);
+        }
+        LeafWord word = new Word(stringWord, previousChar, nextChar);
         return word;
     }
-
-    private String find(String regex, String line) {
-        Pattern p = Pattern.compile(regex);
-        Matcher m = p.matcher(line);
-        String stringWord = "";
-        while (m.find()) {
-            int start = m.start();
-            int end = m.end();
-            stringWord = line.substring(start, end);
-        }
-        return stringWord;
-    }
-
 
 }

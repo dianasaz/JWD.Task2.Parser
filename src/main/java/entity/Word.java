@@ -3,17 +3,19 @@ package entity;
 import java.util.Objects;
 
 public class Word implements LeafWord{
-    private String previousElement;
+    private String previousElement = "";
     private String word;
-    private String nextElement;
+    private String nextElement = "";
 
-    public Word(String word){
+    public Word(String word, String previousElement,  String nextElement){
         this.word = word;
+        this.nextElement = nextElement;
+        this.previousElement = previousElement;
     }
 
     @Override
     public String getData() {
-        return word + " ";
+        return previousElement + word + nextElement;
     }
 
     @Override
@@ -33,6 +35,6 @@ public class Word implements LeafWord{
 
     @Override
     public String toString() {
-        return  word + "";
+        return previousElement +  word  + nextElement;
     }
 }

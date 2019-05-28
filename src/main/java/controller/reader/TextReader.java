@@ -1,4 +1,4 @@
-package service.reader;
+package controller.reader;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -24,6 +24,9 @@ public class TextReader implements ReaderInterface {
         }
         catch (IOException e){
             throw new IOException("File doesn't exist");
+        }
+        if (lines == null){
+            logger.log(Level.INFO, "NULL IN FILE");
         }
         for (String line: lines){
             if (line.matches(PARAGRAPH_MATCH)){

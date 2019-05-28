@@ -3,35 +3,38 @@ package service;
 import entity.CompositeWord;
 import entity.LeafWord;
 import entity.Text;
-import org.junit.Assert;
 import service.parser.ParagraphParser;
 import service.parser.ParserChain;
 import service.parser.SentenseParser;
 import service.parser.TextParser;
 import service.parser.WordParser;
-import service.reader.TextReader;
 
-import java.io.IOException;
+import java.util.Comparator;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class TextService {
+    private static final String NEXT_LINE_SPLIT = ".{3,80}(?=\\s|\\Z)";
     private CompositeWord text;
 
-    public void sort(CompositeWord paragraph){
-        for (int i = 0; i < paragraph.getWords().size(); i++)
-            for (int j = 0; j < paragraph.getWords().size() - 1; j++)
-                if (paragraph.getWords().get(j).getData().length() > paragraph.getWords().get(j + 1).getData().length()) {
-                    LeafWord temp;
-                    temp = paragraph.getWords().get(j);
-                    paragraph.getWords().set(j,  paragraph.getWords().get(j + 1));
-                    paragraph.getWords().set(j + 1, temp);
-                }
+    public void sort(){
+        text.getWords().sort(new Comparator<LeafWord>() {
+            @Override
+            public int compare(LeafWord o1, LeafWord o2) {
+                return Integer.compare(o1.getData().length(), o2.getData().length());
+            }
+        });
     }
-
-    public CompositeWord read() throws IOException {
+/*
+    public String read(String string) throws IOException {
 
         TextReader textReader = new TextReader();
-        String stringText = textReader.read("src\\main\\resources\\File.txt");
+        String stringText = textReader.read(string);
 
+        return stringText;
+    }
+*/
+    public CompositeWord formatText(String stringText){
         ParserChain componentParser = new WordParser()
                 .linkWith(new SentenseParser())
                 .linkWith(new ParagraphParser())
@@ -44,19 +47,21 @@ public class TextService {
 
     public String print() {
         String stringText = text.getData();
-        /*
-        char search = ' ';
-        char search2 = ',';
-        char search3 = '.';
-        String parsedStr = null;
-        for (int i = 75; i < 80; i++) {
-            if (stringText.charAt(i) == search | stringText.charAt(i) == search2 | stringText.charAt(i) == search3) {
-                String regex = "(.{" + i + "})";
-                parsedStr = stringText.replaceAll(regex, "$1\n");
-                //break;
-            }
-        }*/
-        String parsedStr = stringText.replaceAll("(.{76})", "$1\n");
-        return parsedStr;
+        Pattern pattern = Pattern.compile(NEXT_LINE_SPLIT);
+        Matcher matcher = pattern.matcher(stringText);
+
+        String result = "";
+        while (matcher.find()) {
+            int start = matcher.start();
+            int end = matcher.end();
+
+            String a = String.valueOf(stringText.charAt(start));
+            if (a.equals(" ")) {
+                result += stringText.substring(start + 1, end) + "\n";
+            } else result += stringText.substring(start, end) + "\n";
+
+        }
+        if (String.valueOf(result.charAt(result.length() - 1)).equals("\n")) result = result.substring(0, result.length()-1);
+        return result;
     }
 }

@@ -6,16 +6,14 @@ import java.util.Objects;
 
 public class Sentense implements CompositeWord{
     private List<LeafWord> words;
-    private String endOfSentence;
 
     @Override
     public void add(LeafWord leaf) {
         words.add( leaf);
     }
 
-    public Sentense(String end){
+    public Sentense(){
         this.words = new ArrayList<>();
-        this.endOfSentence = end;
     }
 
     @Override
@@ -24,19 +22,12 @@ public class Sentense implements CompositeWord{
     }
 
     @Override
-    public String getData() {/*
-        String sentenceWords = words.stream()
-                .map(LeafWord::getData)
-                .collect(Collectors.joining());
-
-        return "" + sentenceWords.trim();
-    }*/
+    public String getData() {
         String res = "";
-        //res += "\t";
         for (LeafWord word : words) {
-            res += word.getData();
+            res += word.getData() + " ";
         }
-        return res + endOfSentence;
+        return res;
     }
 
     @Override

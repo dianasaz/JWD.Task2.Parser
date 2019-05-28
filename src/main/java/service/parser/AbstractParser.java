@@ -1,7 +1,6 @@
 package service.parser;
 
 import entity.LeafWord;
-import entity.SmartText;
 
 public abstract class AbstractParser implements ParserChain {
     private AbstractParser next;

@@ -3,7 +3,6 @@ package entity;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import java.util.stream.Collectors;
 
 public class Paragraph implements CompositeWord{
     private List<LeafWord> sentenses;
@@ -24,19 +23,11 @@ public class Paragraph implements CompositeWord{
 
     @Override
     public String getData() {
-/*
-        String paragraphText = sentenses.stream()
-                .map(LeafWord::getData)
-                .collect(Collectors.joining());
-
-        return "" + paragraphText.trim();
-    }*/
         String res = "";
-        //res += "\t";
         for (LeafWord sentence : sentenses) {
-            res += sentence.getData();
+            res += sentence.getData().trim() + ". ";
         }
-        return res;
+        return res.trim();
     }
 
     @Override
